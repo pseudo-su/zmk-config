@@ -39,7 +39,7 @@ layers:
   - RSHFT
   - LMETA
   - MOD1
-  - {t: SPACE, h: LALT}
+  - SPACE
   - {t: RET, h: RALT}
   - MOD2
   - RMETA
@@ -125,7 +125,7 @@ layers:
   - {t: ▽, type: trans}
   - LALT
   - {t: ▽, type: trans}
-  - {t: SPACE, h: LMETA}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
