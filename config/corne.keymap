@@ -30,10 +30,10 @@
 // | SHFT |  Z  |  X  |  C  |  V  |  B  |   |  N  |  M   |  ,  |  .  |  /  | RSHIFT |
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
-   &kp TAB   &kp Q &kp W &kp E     &kp R     &kp T            &kp Y        &kp U     &kp I     &kp O   &kp P    &kp RCTRL
-   &kp LCTRL &kp A &kp S &kp D     &kp F     &kp G            &kp H        &kp J     &kp K     &kp L   &kp SEMI &kp SQT
-   &kp LSHFT &kp Z &kp X &kp C     &kp V     &kp B            &kp N        &kp M     &kp COMMA &kp DOT &kp FSLH &kp RSHFT
-                         &kp LMETA &mo L_MOD1  &mt LALT SPACE   &mt RALT RET &mo L_MOD2  &kp RMETA
+   &kp TAB   &kp Q &kp W &kp E     &kp R       &kp T            &kp Y        &kp U     &kp I     &kp O   &kp P    &kp RCTRL
+   &kp LCTRL &kp A &kp S &kp D     &kp F       &kp G            &kp H        &kp J     &kp K     &kp L   &kp SEMI &kp SQT
+   &kp LSHFT &kp Z &kp X &kp C     &kp V       &kp B            &kp N        &kp M     &kp COMMA &kp DOT &kp FSLH &kp RSHFT
+                         &kp LMETA &mo L_MOD1  &kp SPACE   &mt RALT RET &mo L_MOD2  &kp RMETA
                         >;
                 };
                 base_handsdown_neu {
@@ -55,10 +55,10 @@
 // -----------------------------------------------------------------------------------------
 // override LALT w/ LMETA
                         bindings = <
-   &trans   &trans &trans  &trans    &trans    &trans           &trans   &trans    &trans     &trans   &trans    &trans
-   &trans   &trans &trans  &trans    &trans    &trans           &trans   &trans    &trans     &trans   &trans    &trans
-   &trans   &trans &trans  &trans    &trans    &trans           &trans   &trans    &trans     &trans   &trans    &trans
-                           &kp LALT  &trans    &mt LMETA SPACE  &trans   &trans    &trans
+   &trans   &trans &trans  &trans    &trans    &trans    &trans   &trans    &trans     &trans   &trans    &trans
+   &trans   &trans &trans  &trans    &trans    &trans    &trans   &trans    &trans     &trans   &trans    &trans
+   &trans   &trans &trans  &trans    &trans    &trans    &trans   &trans    &trans     &trans   &trans    &trans
+                           &kp LALT  &trans    &trans    &trans   &trans    &trans
                         >;
                 };
                 variant_gaming {
