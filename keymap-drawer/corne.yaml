@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: corne}
 layers:
-  default:
+  QWTY:
   - TAB
   - Q
   - W
@@ -37,13 +37,142 @@ layers:
   - .
   - /
   - RSHFT
-  - LALT
-  - first
-  - SPACE
+  - LMETA
+  - MOD1
+  - {t: SPACE, h: LALT}
   - {t: RET, h: RALT}
-  - second
+  - MOD2
   - RMETA
-  first:
+  HDNU:
+  - {t: ▽, type: trans}
+  - W
+  - F
+  - M
+  - P
+  - V
+  - /
+  - .
+  - Q
+  - ''''
+  - Z
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - R
+  - S
+  - N
+  - T
+  - B
+  - ','
+  - A
+  - E
+  - I
+  - H
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - X
+  - C
+  - L
+  - D
+  - G
+  - J
+  - U
+  - O
+  - Y
+  - K
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  SWPALT:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LALT
+  - {t: ▽, type: trans}
+  - {t: SPACE, h: LMETA}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  GAME:
+  - {t: ▽, type: trans}
+  - T
+  - Q
+  - W
+  - E
+  - R
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - G
+  - A
+  - S
+  - D
+  - F
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - B
+  - Z
+  - X
+  - C
+  - V
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - SPACE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  MOD1:
   - {t: ▽, type: trans}
   - '!'
   - '@'
@@ -86,7 +215,7 @@ layers:
   - HOME
   - {t: ▽, type: trans}
   - END
-  second:
+  MOD2:
   - {t: ▽, type: trans}
   - '!'
   - '@'
@@ -129,7 +258,7 @@ layers:
   - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
-  third:
+  MOD3:
   - BT CLR
   - {t: BT, h: '0'}
   - {t: BT, h: '1'}
@@ -143,6 +272,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: SWPALT, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -154,12 +284,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {t: GAME, h: toggle}
+  - {t: HDNU, h: toggle}
+  - {t: HDNU, h: toggle}
+  - {t: HDNU, h: toggle}
+  - {t: HDNU, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
