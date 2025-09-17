@@ -81,6 +81,7 @@
 // | SHFT |     |     |     |     |     |     |     |    |     |     |     |     |     |      |
 //                    | GUI |     | SPC |     |     |    | ENT |     | ALT |
                         bindings = <
+   &trans &trans   &trans   &trans           &trans        &trans                                 &trans    &trans    &trans          &trans   &trans        &trans
    &trans &kp EXCL &kp AT   &kp HASH         &kp DLLR      &kp PRCNT                              &kp CARET &kp AMPS  &kp KP_MULTIPLY &kp LPAR &kp RPAR      &trans
    &trans &kp ESC  &kp PIPE &kp LEFT_BRACKET &kp BACKSPACE &kp RIGHT_BRACKET                      &kp MINUS &kp UNDER &kp EQUAL       &kp PLUS &kp BACKSLASH &trans
    &trans &kp N1   &kp N2   &kp N3           &kp N4        &kp N5            &trans      &trans   &kp N6    &kp N7    &kp N8          &kp N9   &kp N0        &trans
@@ -96,6 +97,7 @@
 // | SHFT |     |     |     |     |     |     |     |    |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    | GUI |     | SPC |     |     |    | ENT |     | ALT |
                         bindings = <
+   &trans &trans   &trans    &trans         &trans         &trans                                  &trans    &trans   &trans          &trans    &trans    &trans
    &trans &kp EXCL &kp AT    &kp HASH       &kp DLLR       &kp PRCNT                               &kp CARET &kp AMPS &kp KP_MULTIPLY &kp LPAR  &kp RPAR  &trans
    &trans &kp ESC  &kp GRAVE &kp LEFT_BRACE &kp BACKSPACE  &kp RIGHT_BRACE                         &kp LEFT  &kp DOWN &kp UP          &kp RIGHT &kp TILDE &trans
    &trans &kp N1   &kp N2    &kp N3         &kp N4         &kp N5          &trans          &trans  &kp N6    &kp N7   &kp N8          &kp N9    &kp N0    &trans
@@ -110,6 +112,7 @@
 // | SHFT |     |     |     |     |     |     |     |    |  _  |  +  |  {  |  }  | "|" |  ~   |
 //                    |     |     |     |     |     |    |     |     |     |
                         bindings = <
+   &trans     &trans         &trans       &trans       &trans       &trans                           &trans &trans &trans &trans &trans &trans
    &bt BT_CLR &bt BT_SEL 0   &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4                     &trans &trans &trans &trans &trans &trans
    &trans     &tog L_VGAME   &trans       &trans       &trans       &trans                           &trans &trans &trans &trans &trans &trans
    &trans     &tog L_VALTSWP &tog L_BHDNU &tog L_BHDNU &tog L_BHDNU &tog L_BHDNU  &trans      &trans &trans &trans &trans &trans &trans &trans
