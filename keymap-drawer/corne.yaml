@@ -181,7 +181,7 @@ layers:
   - '%'
   - ^
   - '&'
-  - KP MULTIPLY
+  - '*'
   - (
   - )
   - {t: ▽, type: trans}
@@ -189,7 +189,7 @@ layers:
   - ESC
   - '|'
   - '['
-  - BACKSPACE
+  - BSPC
   - ']'
   - '-'
   - _
@@ -224,7 +224,7 @@ layers:
   - '%'
   - ^
   - '&'
-  - KP MULTIPLY
+  - '*'
   - (
   - )
   - {t: ▽, type: trans}
@@ -232,7 +232,7 @@ layers:
   - ESC
   - '`'
   - '{'
-  - BACKSPACE
+  - BSPC
   - '}'
   - LEFT
   - DOWN

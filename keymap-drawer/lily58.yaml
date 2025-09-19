@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - BACKSPACE
+  - BSPC
   - TAB
   - Q
   - W
@@ -179,16 +179,16 @@ layers:
   - {t: ▽, type: trans}
   GAME:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '5'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - T
@@ -257,7 +257,7 @@ layers:
   - '%'
   - ^
   - '&'
-  - KP MULTIPLY
+  - '*'
   - (
   - )
   - {t: ▽, type: trans}
@@ -265,7 +265,7 @@ layers:
   - ESC
   - '|'
   - '['
-  - BACKSPACE
+  - BSPC
   - ']'
   - '-'
   - _
@@ -316,7 +316,7 @@ layers:
   - '%'
   - ^
   - '&'
-  - KP MULTIPLY
+  - '*'
   - (
   - )
   - {t: ▽, type: trans}
@@ -324,7 +324,7 @@ layers:
   - ESC
   - '`'
   - '{'
-  - BACKSPACE
+  - BSPC
   - '}'
   - LEFT
   - DOWN
