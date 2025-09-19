@@ -43,14 +43,14 @@ layers:
   - C
   - V
   - B
+  - BT NXT
+  - BT PRV
   - N
   - M
   - ','
   - .
   - /
   - RSHIFT
-  - BT NXT
-  - BT PRV
   - LALT
   - LMETA
   - MOD1
@@ -102,13 +102,13 @@ layers:
   - L
   - D
   - G
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - J
   - U
   - O
   - Y
   - K
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -220,13 +220,13 @@ layers:
   - X
   - C
   - V
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - N
   - M
   - ','
   - .
   - /
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -279,13 +279,13 @@ layers:
   - '3'
   - '4'
   - '5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '6'
   - '7'
   - '8'
   - '9'
   - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -338,13 +338,13 @@ layers:
   - '3'
   - '4'
   - '5'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '6'
   - '7'
   - '8'
   - '9'
   - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: PG UP, h: LALT}
