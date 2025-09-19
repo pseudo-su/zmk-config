@@ -10,7 +10,7 @@ layers:
   - Y
   - U
   - I
-  - Q
+  - O
   - P
   - RCTRL
   - LCTRL
@@ -36,7 +36,7 @@ layers:
   - ','
   - .
   - /
-  - RSHIFT
+  - RSHFT
   - LMETA
   - MOD1
   - SPACE

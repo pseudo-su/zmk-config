@@ -22,7 +22,7 @@ layers:
   - Y
   - U
   - I
-  - Q
+  - O
   - P
   - RCTRL
   - LCTRL
@@ -50,7 +50,7 @@ layers:
   - ','
   - .
   - /
-  - RSHIFT
+  - RSHFT
   - LALT
   - LMETA
   - MOD1
