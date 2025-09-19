@@ -30,8 +30,7 @@
                       LM53  LM43  LM33  LM23  LM13  LM03                                   RM03  RM13  RM23  RM33  RM43  RM53  \
                       LM52  LM42  LM32  LM22  LM12  LM02                                   RM02  RM12  RM22  RM32  RM42  RM52  \
                       LM51  LM41  LM31  LM21  LM11  LM01                                   RM01  RM11  RM21  RM31  RM41  RM51  \
-                      LM50  LM40  LM30  LM20  LM10  LM00                                   RM00  RM10  RM20  RM30  RM40  RM50  \
-                                                            LT11                  RT11                                         \
+                      LM50  LM40  LM30  LM20  LM10  LM00    LT11                  RT11     RM00  RM10  RM20  RM30  RM40  RM50  \
                                           LT40  LT30  LT20  LT10                  RT10  RT20  RT30  RT40                       \
 
 //       ┌───────┬───────┬───────┬───────┬───────┬───────┐                            ┌───────┬───────┬───────┬───────┬───────┬───────┐
