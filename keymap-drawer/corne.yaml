@@ -10,7 +10,7 @@ layers:
   - Y
   - U
   - I
-  - O
+  - Q
   - P
   - RCTRL
   - LCTRL
@@ -36,7 +36,7 @@ layers:
   - ','
   - .
   - /
-  - RSHFT
+  - RSHIFT
   - LMETA
   - MOD1
   - SPACE
@@ -139,7 +139,7 @@ layers:
   - Y
   - U
   - I
-  - O
+  - Q
   - P
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -181,7 +181,7 @@ layers:
   - '%'
   - ^
   - '&'
-  - KP MULTIPLY
+  - '*'
   - (
   - )
   - {t: ▽, type: trans}
@@ -189,7 +189,7 @@ layers:
   - ESC
   - '|'
   - '['
-  - BACKSPACE
+  - BSPC
   - ']'
   - '-'
   - _
@@ -209,7 +209,7 @@ layers:
   - '9'
   - '0'
   - {t: ▽, type: trans}
-  - RALT
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - HOME
@@ -224,7 +224,7 @@ layers:
   - '%'
   - ^
   - '&'
-  - KP MULTIPLY
+  - '*'
   - (
   - )
   - {t: ▽, type: trans}
@@ -232,7 +232,7 @@ layers:
   - ESC
   - '`'
   - '{'
-  - BACKSPACE
+  - BSPC
   - '}'
   - LEFT
   - DOWN

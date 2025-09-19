@@ -12,7 +12,7 @@ layers:
   - '8'
   - '9'
   - '0'
-  - BACKSPACE
+  - BSPC
   - TAB
   - Q
   - W
@@ -22,7 +22,7 @@ layers:
   - Y
   - U
   - I
-  - O
+  - Q
   - P
   - RCTRL
   - LCTRL
@@ -43,14 +43,14 @@ layers:
   - C
   - V
   - B
-  - BT NXT
-  - BT PRV
   - N
   - M
   - ','
   - .
   - /
-  - RSHFT
+  - RSHIFT
+  - BT NXT
+  - BT PRV
   - LALT
   - LMETA
   - MOD1
@@ -102,13 +102,13 @@ layers:
   - L
   - D
   - G
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - J
   - U
   - O
   - Y
   - K
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -179,16 +179,16 @@ layers:
   - {t: ▽, type: trans}
   GAME:
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '5'
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - T
@@ -199,7 +199,7 @@ layers:
   - Y
   - U
   - I
-  - O
+  - Q
   - P
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -220,13 +220,13 @@ layers:
   - X
   - C
   - V
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - N
   - M
   - ','
   - .
   - /
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -257,7 +257,7 @@ layers:
   - '%'
   - ^
   - '&'
-  - KP MULTIPLY
+  - '*'
   - (
   - )
   - {t: ▽, type: trans}
@@ -265,7 +265,7 @@ layers:
   - ESC
   - '|'
   - '['
-  - BACKSPACE
+  - BSPC
   - ']'
   - '-'
   - _
@@ -279,8 +279,6 @@ layers:
   - '3'
   - '4'
   - '5'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '6'
   - '7'
   - '8'
@@ -288,7 +286,9 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RALT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - HOME
@@ -316,7 +316,7 @@ layers:
   - '%'
   - ^
   - '&'
-  - KP MULTIPLY
+  - '*'
   - (
   - )
   - {t: ▽, type: trans}
@@ -324,7 +324,7 @@ layers:
   - ESC
   - '`'
   - '{'
-  - BACKSPACE
+  - BSPC
   - '}'
   - LEFT
   - DOWN
@@ -338,13 +338,13 @@ layers:
   - '3'
   - '4'
   - '5'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - '6'
   - '7'
   - '8'
   - '9'
   - '0'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: PG UP, h: LALT}
