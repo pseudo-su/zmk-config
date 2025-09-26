@@ -67,7 +67,7 @@ layers:
   - E
   - I
   - H
-  - {t: ▽, type: trans}
+  - ;
   - {t: ▽, type: trans}
   - X
   - C
