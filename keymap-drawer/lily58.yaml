@@ -175,8 +175,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RALT
+  - RMETA
   GAME:
   - {t: ▽, type: trans}
   - '5'
