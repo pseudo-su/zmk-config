@@ -36,8 +36,8 @@ layers:
   - K
   - L
   - ;
-  - ''''
-  - LSHFT
+  - {t: '''', h: RCTRL}
+  - '&lshift'
   - Z
   - X
   - C
@@ -50,7 +50,7 @@ layers:
   - ','
   - .
   - /
-  - RSHFT
+  - '&rshift'
   - LALT
   - LMETA
   - MOD1
@@ -95,7 +95,7 @@ layers:
   - E
   - I
   - H
-  - ;
+  - {t: ;, h: RCTRL}
   - {t: ▽, type: trans}
   - X
   - C
