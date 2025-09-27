@@ -22,6 +22,10 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/bt.h>
 
+// KEY ALIAS
+#define ____________  &trans
+
+// LAYER REFERENCES
 #define L_BQWTY   0 // BASE qwerty
 #define L_BHDNU   1 // BASE handsdown neu
 
@@ -32,58 +36,31 @@
 #define L_MOD2 5 // MOD layer 2
 #define L_MOD3 6 // MOD layer 3
 
-//                         bindings = <LAYER_ADAPTER(
-//   &trans,      &trans,      &trans,      &trans,      &trans,      &trans,      &trans,                                &trans,      &trans,      &trans,      &trans,      &trans,      &trans,      &trans,      
-//                                                                                 &trans,                                &trans,                                                                                    
-//   &trans,      &trans,      &trans,      &trans,      &trans,      &trans,      &trans,                                &trans,      &trans,      &trans,      &trans,      &trans,      &trans,      &trans,      
-//   &trans,      &trans,      &trans,      &trans,      &trans,      &trans,      &trans,                                &trans,      &trans,      &trans,      &trans,      &trans,      &trans,      &trans,      
-//   &trans,      &trans,      &trans,      &trans,      &trans,      &trans,                                                          &trans,      &trans,      &trans,      &trans,      &trans,      &trans,      
-//   &trans,      &trans,      &trans,      &trans,      &trans,      &trans,                                                          &trans,      &trans,      &trans,      &trans,      &trans,      &trans,      
-//                                                                                 &trans,      &trans,      &trans,      &trans,                                                                                    
-//   &trans,      &trans,      &trans,      &trans,      &trans,      &trans,      &trans,      &trans,      &trans,      &trans,      &trans,      &trans,      &trans,      &trans,      &trans,      &trans,      
-//                         )>;
-
-//                         bindings = <LAYER_ADAPTER(
-//   &trans      , &trans      , &trans      , &trans      , &trans      , &trans      , &trans      ,                             &trans      , &trans      , &trans      , &trans      , &trans      , &trans      , &trans      ,
-//                                                                                       &trans      ,                             &trans      ,                                                                                    
-//   &trans      , &trans      , &trans      , &trans      , &trans      , &trans      , &trans      ,                             &trans      , &trans      , &trans      , &trans      , &trans      , &trans      , &trans      ,
-//   &trans      , &trans      , &trans      , &trans      , &trans      , &trans      , &trans      ,                             &trans      , &trans      , &trans      , &trans      , &trans      , &trans      , &trans      ,
-//   &trans      , &trans      , &trans      , &trans      , &trans      , &trans      ,                                                         &trans      , &trans      , &trans      , &trans      , &trans      , &trans      ,
-//   &trans      , &trans      , &trans      , &trans      , &trans      , &trans      ,                                                         &trans      , &trans      , &trans      , &trans      , &trans      , &trans      ,
-//                                                                                       &trans      , &trans      , &trans      , &trans      ,                                                                                    
-//   &trans      , &trans      , &trans      , &trans      , &trans      , &trans      , &trans      , &trans      , &trans      , &trans      , &trans      , &trans      , &trans      , &trans      , &trans      , &trans      ,
-//                         )>;
-
-#define ____________  &trans
-//                         bindings = <LAYER_ADAPTER(
-//   ____________, ____________, ____________, ____________, ____________, ____________, ____________,                             ____________, ____________, ____________, ____________, ____________, ____________, ____________,
-//                                                                                       ____________,                             ____________,                                                                                    
-//   ____________, ____________, ____________, ____________, ____________, ____________, ____________,                             ____________, ____________, ____________, ____________, ____________, ____________, ____________,
-//   ____________, ____________, ____________, ____________, ____________, ____________, ____________,                             ____________, ____________, ____________, ____________, ____________, ____________, ____________,
-//   ____________, ____________, ____________, ____________, ____________, ____________,                                                         ____________, ____________, ____________, ____________, ____________, ____________,
-//   ____________, ____________, ____________, ____________, ____________, ____________,                                                         ____________, ____________, ____________, ____________, ____________, ____________,
-//                                                                                       ____________, ____________, ____________, ____________,                                                                                    
-//   ____________, ____________, ____________, ____________, ____________, ____________, ____________, ____________, ____________, ____________, ____________, ____________, ____________, ____________, ____________, ____________,
-//                         )>;
-&caps_word {
-  continue-list = <UNDERSCORE MINUS LSHIFT RSHIFT>;
-};
-
 / {
         behaviors {
+                caps_wrd: caps_wrd {
+                        compatible = "zmk,behavior-caps-word";
+                        #binding-cells = <0>;
+                        continue-list = <BACKSPACE DELETE UNDERSCORE MINUS LSHIFT RSHIFT>;
+                };
+                caps_phrase: caps_phrase {
+                        compatible = "zmk,behavior-caps-word";
+                        #binding-cells = <0>;
+                        continue-list = <BACKSPACE DELETE UNDERSCORE MINUS LSHIFT RSHIFT SPACE>;
+                };
                 lshift: lshift_caps_word {
                         compatible = "zmk,behavior-tap-dance";
-                        label = "LSHFT CAPSWORD";
+                        label = "lshift (caps_word)";
                         #binding-cells = <0>;
                         tapping-term-ms = <200>;
-                        bindings = <&kp LSHIFT>, <&caps_word>;
+                        bindings = <&kp LSHIFT>, <&caps_wrd>;
                 };
                 rshift: rshift_caps_word {
                         compatible = "zmk,behavior-tap-dance";
-                        label = "RSHFT CAPSWORD";
+                        label = "rshift (caps_phrase)";
                         #binding-cells = <0>;
                         tapping-term-ms = <200>;
-                        bindings = <&kp RSHIFT>, <&caps_word>;
+                        bindings = <&kp RSHIFT>, <&caps_phrase>;
                 };
         };
 
