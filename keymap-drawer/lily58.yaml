@@ -44,7 +44,7 @@ layers:
   - V
   - B
   - BT NXT
-  - BT PRV
+  - DEL
   - N
   - M
   - ','
@@ -60,19 +60,19 @@ layers:
   - RMETA
   - RALT
   HDNU:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - BSPC
+  - TAB
   - W
   - F
   - M
@@ -83,8 +83,8 @@ layers:
   - Q
   - ''''
   - Z
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RCTRL
+  - LCTRL
   - R
   - S
   - N
@@ -96,28 +96,28 @@ layers:
   - I
   - H
   - {t: ;, h: RCTRL}
-  - {t: ▽, type: trans}
+  - '&lshift'
   - X
   - C
   - L
   - D
   - G
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BT NXT
+  - DEL
   - J
   - U
   - O
   - Y
   - K
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&rshift'
+  - LALT
+  - LMETA
+  - MOD1
+  - SPACE
+  - {t: RET, h: RALT}
+  - MOD2
+  - RMETA
+  - RALT
   SWPALT:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -177,8 +177,67 @@ layers:
   - {t: ▽, type: trans}
   - RALT
   - RMETA
-  GAME:
+  GAME0:
+  - ESC
+  - '1'
+  - '2'
+  - '3'
+  - '4'
+  - '5'
+  - '6'
+  - '7'
+  - '8'
+  - '9'
+  - '0'
+  - BSPC
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - RCTRL
+  - LCTRL
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LSHIFT
+  - Z
+  - X
+  - C
+  - V
+  - B
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RSHIFT
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  GAME1:
+  - ESC
   - '5'
   - '1'
   - '2'
@@ -189,8 +248,8 @@ layers:
   - '8'
   - '9'
   - '0'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BSPC
+  - TAB
   - T
   - Q
   - W
@@ -201,8 +260,8 @@ layers:
   - I
   - O
   - P
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RCTRL
+  - LCTRL
   - G
   - A
   - S
@@ -213,8 +272,8 @@ layers:
   - K
   - L
   - ;
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''''
+  - LSHIFT
   - B
   - Z
   - X
@@ -227,7 +286,7 @@ layers:
   - ','
   - .
   - /
-  - {t: ▽, type: trans}
+  - RSHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -367,12 +426,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - BT NXT
+  - BT PRV
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -380,23 +439,23 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: GAME0, h: toggle}
+  - {t: GAME1, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: HDNU, h: toggle}
   - {t: SWPALT, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: GAME, h: toggle}
-  - {t: HDNU, h: toggle}
-  - {t: HDNU, h: toggle}
-  - {t: HDNU, h: toggle}
-  - {t: HDNU, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

@@ -44,7 +44,7 @@ layers:
   - MOD2
   - RMETA
   HDNU:
-  - {t: ▽, type: trans}
+  - TAB
   - W
   - F
   - M
@@ -55,8 +55,8 @@ layers:
   - Q
   - ''''
   - Z
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RCTRL
+  - LCTRL
   - R
   - S
   - N
@@ -68,7 +68,7 @@ layers:
   - I
   - H
   - {t: ;, h: RCTRL}
-  - {t: ▽, type: trans}
+  - '&lshift'
   - X
   - C
   - L
@@ -79,13 +79,13 @@ layers:
   - O
   - Y
   - K
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - '&rshift'
+  - LMETA
+  - MOD1
+  - SPACE
+  - {t: RET, h: RALT}
+  - MOD2
+  - RMETA
   SWPALT:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -129,8 +129,51 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - RALT
-  GAME:
+  GAME0:
+  - TAB
+  - Q
+  - W
+  - E
+  - R
+  - T
+  - Y
+  - U
+  - I
+  - O
+  - P
+  - RCTRL
+  - LCTRL
+  - A
+  - S
+  - D
+  - F
+  - G
+  - H
+  - J
+  - K
+  - L
+  - ;
+  - ''''
+  - LSHIFT
+  - Z
+  - X
+  - C
+  - V
+  - B
+  - N
+  - M
+  - ','
+  - .
+  - /
+  - RSHIFT
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  GAME1:
+  - TAB
   - T
   - Q
   - W
@@ -141,8 +184,8 @@ layers:
   - I
   - O
   - P
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - RCTRL
+  - LCTRL
   - G
   - A
   - S
@@ -153,8 +196,8 @@ layers:
   - K
   - L
   - ;
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - ''''
+  - LSHIFT
   - B
   - Z
   - X
@@ -165,7 +208,7 @@ layers:
   - ','
   - .
   - /
-  - {t: ▽, type: trans}
+  - RSHIFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -259,12 +302,12 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   MOD3:
+  - {t: ▽, type: trans}
+  - BT NXT
+  - BT PRV
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - BT CLR
-  - {t: BT, h: '0'}
-  - {t: BT, h: '1'}
-  - {t: BT, h: '2'}
-  - {t: BT, h: '3'}
-  - {t: BT, h: '4'}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -272,23 +315,23 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: GAME0, h: toggle}
+  - {t: GAME1, h: toggle}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: HDNU, h: toggle}
   - {t: SWPALT, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: GAME, h: toggle}
-  - {t: HDNU, h: toggle}
-  - {t: HDNU, h: toggle}
-  - {t: HDNU, h: toggle}
-  - {t: HDNU, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
