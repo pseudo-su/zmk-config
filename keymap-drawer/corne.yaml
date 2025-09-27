@@ -303,8 +303,8 @@ layers:
   - {t: ▽, type: trans}
   MOD3:
   - {t: ▽, type: trans}
-  - BT NXT
   - BT PRV
+  - BT NXT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - BT CLR
