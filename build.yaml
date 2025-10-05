@@ -13,61 +13,120 @@
 #
 ---
 include:
-  # Keyboard: PseudoCorne
-  - keyboard: PseudoCorne
+  # Keyboard: PseudoLily58 (nicenano)
+  - keyboard: PseudoLily58
     board: nice_nano_v2
-    shield: corne_left nice_view_adapter nice_view
+    shield: lily58_left nice_view_adapter nice_view_thorne
     snippet: studio-rpc-usb-uart # left only
-    artifact-name: zmk-corne-left
+    artifact-name: zmk-nicenano-lily58-left
     cmake-args: |
-      -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoCorne\"
-  - keyboard: PseudoCorne
+      -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoLily58\"
+  - keyboard: PseudoLily58
     board: nice_nano_v2
-    shield: corne_right nice_view_adapter nice_view
-    artifact-name: zmk-corne-right
+    shield: lily58_right nice_view_adapter nice_view_thorne
+    artifact-name: zmk-nicenano-lily58-right
     cmake-args: |
-      -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoCorne\"
-  - keyboard: PseudoCorne
+      -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoLily58\"
+  - keyboard: PseudoLily58
     board: nice_nano_v2
     shield: settings_reset
-    artifact-name: zmk-corne-settings-reset
-
-  # Keyboard: PseudoLilCorne
-  - keyboard: PseudoLilCorne
-    board: nice_nano_v2
-    shield: corne_left nice_view_adapter nice_view
-    snippet: studio-rpc-usb-uart # left only
-    artifact-name: zmk-lil-corne-left
+    artifact-name: zmk-nicenano-lily58-settings-reset
     cmake-args: |
       -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoLilCorne\"
-  - keyboard: PseudoLilCorne
-    board: nice_nano_v2
-    shield: corne_right nice_view_adapter nice_view
-    artifact-name: zmk-lil-corne-right
-    cmake-args: |
-      -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoLilCorne\"
-  - keyboard: PseudoLilCorne
-    board: nice_nano_v2
-    shield: settings_reset
-    artifact-name: zmk-lil-corne-settings-reset
 
-  # Keyboard: PseudoLily58
+  # Keyboard: PseudoLily58 (mikoto)
   - keyboard: PseudoLily58
     board: mikoto@7.2
-    shield: lily58_left nice_view_adapter nice_view
+    shield: lily58_left nice_view_adapter nice_view_thorne
     snippet: studio-rpc-usb-uart # left only
-    artifact-name: zmk-lily58-left
+    artifact-name: zmk-mikoto-lily58-left
     cmake-args: |
       -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoLily58\"
   - keyboard: PseudoLily58
     board: mikoto@7.2
-    shield: lily58_right nice_view_adapter nice_view
-    artifact-name: zmk-lily58-right
+    shield: lily58_right nice_view_adapter nice_view_thorne
+    artifact-name: zmk-mikoto-lily58-right
     cmake-args: |
       -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoLily58\"
   - keyboard: PseudoLily58
     board: mikoto@7.2
     shield: settings_reset
-    artifact-name: zmk-lily58-settings-reset
+    artifact-name: zmk-mikoto-lily58-settings-reset
     cmake-args: |
       -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoLilCorne\"
+
+  # Keyboard: PseudoCorne (nicenano)
+  - keyboard: PseudoCorne
+    board: nice_nano_v2
+    shield: corne_left nice_view_adapter nice_view_thorne
+    snippet: studio-rpc-usb-uart # left only
+    artifact-name: zmk-nicenano-corne-left
+    cmake-args: |
+      -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoCorne\"
+  - keyboard: PseudoCorne
+    board: nice_nano_v2
+    shield: corne_right nice_view_adapter nice_view_thorne
+    artifact-name: zmk-nicenano-corne-right
+    cmake-args: |
+      -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoCorne\"
+  - keyboard: PseudoCorne
+    board: nice_nano_v2
+    shield: settings_reset
+    artifact-name: zmk-nicenano-corne-settings-reset
+
+  # Keyboard: PseudoCorne (mikoto)
+  - keyboard: PseudoCorne
+    board: mikoto@7.2
+    shield: corne_left nice_view_adapter nice_view_thorne
+    snippet: studio-rpc-usb-uart # left only
+    artifact-name: zmk-mikoto-corne-left
+    cmake-args: |
+      -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoCorne\"
+  - keyboard: PseudoCorne
+    board: mikoto@7.2
+    shield: corne_right nice_view_adapter nice_view_thorne
+    artifact-name: zmk-mikoto-corne-right
+    cmake-args: |
+      -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoCorne\"
+  - keyboard: PseudoCorne
+    board: mikoto@7.2
+    shield: settings_reset
+    artifact-name: zmk-mikoto-corne-settings-reset
+
+  # Keyboard: PseudoLilCorne (nicenano)
+  - keyboard: PseudoLilCorne
+    board: nice_nano_v2
+    shield: corne_left nice_view_adapter nice_view_thorne
+    snippet: studio-rpc-usb-uart # left only
+    artifact-name: zmk-nicenano-lil-corne-left
+    cmake-args: |
+      -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoLilCorne\"
+  - keyboard: PseudoLilCorne
+    board: nice_nano_v2
+    shield: corne_right nice_view_adapter nice_view_thorne
+    artifact-name: zmk-nicenano-lil-corne-right
+    cmake-args: |
+      -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoLilCorne\"
+  - keyboard: PseudoLilCorne
+    board: nice_nano_v2
+    shield: settings_reset
+    artifact-name: zmk-nicenano-lil-corne-settings-reset
+
+  # Keyboard: PseudoLilCorne (mikoto)
+  - keyboard: PseudoLilCorne
+    board: mikoto@7.2
+    shield: corne_left nice_view_adapter nice_view_thorne
+    snippet: studio-rpc-usb-uart # left only
+    artifact-name: zmk-mikoto-lil-corne-left
+    cmake-args: |
+      -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoLilCorne\"
+  - keyboard: PseudoLilCorne
+    board: mikoto@7.2
+    shield: corne_right nice_view_adapter nice_view_thorne
+    artifact-name: zmk-mikoto-lil-corne-right
+    cmake-args: |
+      -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoLilCorne\"
+  - keyboard: PseudoLilCorne
+    board: mikoto@7.2
+    shield: settings_reset
+    artifact-name: zmk-mikoto-lil-corne-settings-reset
