@@ -1,9 +1,20 @@
 layout: {zmk_keyboard: reviung5}
 layers:
-  BASE: [BLE, PREVIOUS, PLAY PAUSE, NEXT, MUTE]
+  BASE:
+  - BLE
+  - PREVIOUS
+  - PLAY PAUSE
+  - NEXT
+  - {t: MUTE, h: RGB}
   BLE:
   - {type: held}
   - OUT TOG
   - BT PRV
   - BT NXT
   - BT CLR
+  RGB:
+  - RGB TOG
+  - RGB EFR
+  - RGB EFF
+  - RGB COLOR HSB(307,89,98)
+  - {type: held}
