@@ -130,3 +130,13 @@ include:
     board: mikoto@7.2
     shield: settings_reset
     artifact-name: zmk-mikoto-lil-corne-settings-reset
+
+  # Keyboard: Reviung5
+  - keyboard: PseudoReviung5
+    board: nice_nano_v2
+    shield: reviung5
+    artifact-name: zmk-nicenano-reviung5
+  - keyboard: PseudoReviung5
+    board: nice_nano_v2
+    shield: settings_reset
+    artifact-name: zmk-nicenano-reviung5-settings-reset
