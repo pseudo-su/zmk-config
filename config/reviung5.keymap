@@ -20,7 +20,7 @@
             rgb_encoder: rgb_encoder {
               compatible = "zmk,behavior-sensor-rotate";
               #sensor-binding-cells = <0>;
-              bindings = <&rgb_ug RGB_BRI>, <&rgb_ug RGB_BRD>;
+              bindings = <&rgb_ug RGB_BRD>, <&rgb_ug RGB_BRI>;
             };
         };
 
@@ -34,7 +34,7 @@
                      &mo BLE   &kp C_PREVIOUS   &kp C_PLAY_PAUSE   &kp C_NEXT   &lt RGB C_MUTE
                 // ╰─────────┴────────────────┴──────────────────┴────────────┴────────────────╯
               >;
-              sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+              sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
             };
 
             ble_layer {
