@@ -16,14 +16,14 @@ include:
   # Keyboard: PseudoLily58 (nicenano)
   - keyboard: PseudoLily58
     board: nice_nano
-    shield: lily58_left nice_view_adapter nice_view_thorne
+    shield: lily58_left nice_view_adapter nice_view_gem
     snippet: studio-rpc-usb-uart # left only
     artifact-name: zmk-nicenano-lily58-left
     cmake-args: |
       -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoLily58\"
   - keyboard: PseudoLily58
     board: nice_nano
-    shield: lily58_right nice_view_adapter nice_view_thorne
+    shield: lily58_right nice_view_adapter nice_view_gem
     artifact-name: zmk-nicenano-lily58-right
     cmake-args: |
       -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoLily58\"
@@ -37,14 +37,14 @@ include:
   # Keyboard: PseudoLily58 (mikoto)
   - keyboard: PseudoLily58
     board: mikoto@7.2
-    shield: lily58_left nice_view_adapter nice_view_thorne
+    shield: lily58_left nice_view_adapter nice_view_gem
     snippet: studio-rpc-usb-uart # left only
     artifact-name: zmk-mikoto-lily58-left
     cmake-args: |
       -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoLily58\"
   - keyboard: PseudoLily58
     board: mikoto@7.2
-    shield: lily58_right nice_view_adapter nice_view_thorne
+    shield: lily58_right nice_view_adapter nice_view_gem
     artifact-name: zmk-mikoto-lily58-right
     cmake-args: |
       -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoLily58\"
@@ -58,14 +58,14 @@ include:
   # Keyboard: PseudoCorne (nicenano)
   - keyboard: PseudoCorne
     board: nice_nano
-    shield: corne_left nice_view_adapter nice_view_thorne
+    shield: corne_left nice_view_adapter nice_view_gem
     snippet: studio-rpc-usb-uart # left only
     artifact-name: zmk-nicenano-corne-left
     cmake-args: |
       -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoCorne\"
   - keyboard: PseudoCorne
     board: nice_nano
-    shield: corne_right nice_view_adapter nice_view_thorne
+    shield: corne_right nice_view_adapter nice_view_gem
     artifact-name: zmk-nicenano-corne-right
     cmake-args: |
       -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoCorne\"
@@ -77,14 +77,14 @@ include:
   # Keyboard: PseudoCorne (mikoto)
   - keyboard: PseudoCorne
     board: mikoto@7.2
-    shield: corne_left nice_view_adapter nice_view_thorne
+    shield: corne_left nice_view_adapter nice_view_gem
     snippet: studio-rpc-usb-uart # left only
     artifact-name: zmk-mikoto-corne-left
     cmake-args: |
       -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoCorne\"
   - keyboard: PseudoCorne
     board: mikoto@7.2
-    shield: corne_right nice_view_adapter nice_view_thorne
+    shield: corne_right nice_view_adapter nice_view_gem
     artifact-name: zmk-mikoto-corne-right
     cmake-args: |
       -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoCorne\"
@@ -96,14 +96,14 @@ include:
   # Keyboard: PseudoLilCorne (nicenano)
   - keyboard: PseudoLilCorne
     board: nice_nano
-    shield: corne_left nice_view_adapter nice_view_thorne
+    shield: corne_left nice_view_adapter nice_view_gem
     snippet: studio-rpc-usb-uart # left only
     artifact-name: zmk-nicenano-lil-corne-left
     cmake-args: |
       -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoLilCorne\"
   - keyboard: PseudoLilCorne
     board: nice_nano
-    shield: corne_right nice_view_adapter nice_view_thorne
+    shield: corne_right nice_view_adapter nice_view_gem
     artifact-name: zmk-nicenano-lil-corne-right
     cmake-args: |
       -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoLilCorne\"
@@ -115,14 +115,14 @@ include:
   # Keyboard: PseudoLilCorne (mikoto)
   - keyboard: PseudoLilCorne
     board: mikoto@7.2
-    shield: corne_left nice_view_adapter nice_view_thorne
+    shield: corne_left nice_view_adapter nice_view_gem
     snippet: studio-rpc-usb-uart # left only
     artifact-name: zmk-mikoto-lil-corne-left
     cmake-args: |
       -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoLilCorne\"
   - keyboard: PseudoLilCorne
     board: mikoto@7.2
-    shield: corne_right nice_view_adapter nice_view_thorne
+    shield: corne_right nice_view_adapter nice_view_gem
     artifact-name: zmk-mikoto-lil-corne-right
     cmake-args: |
       -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoLilCorne\"
