@@ -33,9 +33,10 @@
 #define L_VGAME0  3 // VARIANT gaming (no quirks)
 #define L_VGAME1  4 // VARIANT gaming (no quirks + lhand cols shifted right)
 
-#define L_MOD1 5 // MOD layer 1
-#define L_MOD2 6 // MOD layer 2
-#define L_MOD3 7 // MOD layer 3
+#define L_MOD1 5        // MOD layer 1
+#define L_MOD2 6        // MOD layer 2
+#define L_MOD2_VALTSWP 7 // MOD layer 2
+#define L_MOD3 8        // MOD layer 3
 
 / {
         behaviors {
@@ -206,6 +207,10 @@
                 tri_layer {
                         if-layers = <L_MOD1 L_MOD2>;
                         then-layer = <L_MOD3>;
+                };
+                swapalt_mod_2 {
+                        if-layers = <L_MOD2 L_VALTSWP>;
+                        then-layer = <L_MOD2_VALTSWP>;
                 };
         };
 };
