@@ -134,7 +134,7 @@ include:
   # Keyboard: Reviung5
   - keyboard: PseudoReviung5
     board: nice_nano//zmk
-    shield: reviung5
+    shield: reviung5//zmk
     artifact-name: zmk-nicenano-reviung5
     cmake-args: |
       -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoReviung5\"
