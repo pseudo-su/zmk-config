@@ -16,7 +16,7 @@ include:
   # Keyboard: PseudoLily58 (nicenano)
   - keyboard: PseudoLily58
     board: nice_nano
-    shield: lily58_left nice_view_adapter nice_view_gem
+    shield: lily58_left nice_view_adapter # nice_view_gem
     snippet: studio-rpc-usb-uart # left only
     artifact-name: zmk-nicenano-lily58-left
     cmake-args: |
