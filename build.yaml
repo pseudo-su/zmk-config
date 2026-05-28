@@ -131,14 +131,14 @@ include:
     shield: settings_reset
     artifact-name: zmk-mikoto-lil-corne-settings-reset
 
-  # Keyboard: Reviung5
-  - keyboard: PseudoReviung5
-    board: nice_nano//zmk
-    shield: reviung5//zmk
-    artifact-name: zmk-nicenano-reviung5
-    cmake-args: |
-      -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoReviung5\"
-  - keyboard: PseudoReviung5
-    board: nice_nano//zmk
-    shield: settings_reset
-    artifact-name: zmk-nicenano-reviung5-settings-reset
+  # # Keyboard: Reviung5
+  # - keyboard: PseudoReviung5
+  #   board: nice_nano//zmk
+  #   shield: reviung5
+  #   artifact-name: zmk-nicenano-reviung5
+  #   cmake-args: |
+  #     -DCONFIG_ZMK_KEYBOARD_NAME=\"PseudoReviung5\"
+  # - keyboard: PseudoReviung5
+  #   board: nice_nano//zmk
+  #   shield: settings_reset
+  #   artifact-name: zmk-nicenano-reviung5-settings-reset
