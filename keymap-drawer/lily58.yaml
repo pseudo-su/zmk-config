@@ -169,14 +169,14 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LMETA
-  - LALT
+  - {t: ▽, type: trans}
+  - {t: PG UP, h: LALT}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RALT
-  - RMETA
   GAME0:
   - ESC
   - '1'
@@ -347,7 +347,7 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - RALT
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - HOME
@@ -406,7 +406,7 @@ layers:
   - '0'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: PG UP, h: LALT}
+  - {t: PG UP, h: LMETA}
   - {t: ▽, type: trans}
   - {t: PG DN, h: RALT}
   - {t: ▽, type: trans}
@@ -466,9 +466,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}

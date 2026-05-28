@@ -123,12 +123,12 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - LALT
+  - {t: PG UP, h: LALT}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - RALT
   GAME0:
   - TAB
   - Q
@@ -252,7 +252,7 @@ layers:
   - '9'
   - '0'
   - {t: ▽, type: trans}
-  - RALT
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - HOME
@@ -295,7 +295,7 @@ layers:
   - '9'
   - '0'
   - {t: ▽, type: trans}
-  - {t: PG UP, h: LALT}
+  - {t: PG UP, h: LMETA}
   - {t: ▽, type: trans}
   - {t: PG DN, h: RALT}
   - {t: ▽, type: trans}
@@ -339,8 +339,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
