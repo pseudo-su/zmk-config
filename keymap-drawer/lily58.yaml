@@ -339,7 +339,7 @@ layers:
   - '4'
   - '5'
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - PSCRN
   - '6'
   - '7'
   - '8'
